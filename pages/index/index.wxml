@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <text bindtap="test_request">
+     测试request
+  </text>
+</view>
