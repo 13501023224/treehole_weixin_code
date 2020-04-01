@@ -7,7 +7,41 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    bans:[
+      {
+        "name":"你好1",
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/toutu0.jpg"
+      },
+      {
+        "name":"你好2",
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/toutu1.jpg"
+      },
+      {
+        "name":"你好3",
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/toutu2.jpg"
+      },
+      {
+        "name":"你好4",
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/toutu3.jpg"
+      }
+    ],
+
+    cases:[
+      {
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/case%200%20%200.jpg"
+      },
+      {
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/case%200%20%200.jpg"
+      },
+      {
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/case%200%20%200.jpg"
+      },
+      {
+        imagePath:"http://q7wolxz6h.bkt.clouddn.com/case%200%20%200.jpg"
+      }
+    ]
+
   },
   //事件处理函数
   bindViewTap: function() {
@@ -51,16 +85,12 @@ Page({
       hasUserInfo: true
     })
   },
-
+  //测试request请求
   test_request:function(){
      wx:wx.request({
-       url: 'https://www.kmcanaan.com',
+       url: 'https://www.qingdaohunlicehua.com',
        method: "GET",
        success:function(res){console.log(res)}
      })
   },
-
-
-
-
 })

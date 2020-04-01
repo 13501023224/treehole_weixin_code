@@ -1,6 +1,28 @@
 <!--index.wxml-->
-<view class="container">
-  <text bindtap="test_request">
-     测试request
-  </text>
+<view>
+<swiper indicator-dots="true" indicator-color="gree" class="swiperClass" >
+   <swiper-item wx:for="{{bans}}">
+      <view  >
+      <image class="tupiantiaozheng"  src="{{item.imagePath}}" >
+      </image>
+      </view>
+   </swiper-item>
+</swiper>
+</view >
+
+<test >
+
+</test>
+
+<view class="juzhongduiqi">
+    <text bindtap="test_request">案例欣赏</text>
 </view>
+<view wx:for="{{cases}}" class="swiperClass">
+  <navigator url="/pages/caseDetail/caseDetail?id={{index}}"  >
+      <image src="{{item.imagePath}}" class="tupiantiaozheng"></image>
+  </navigator> 
+</view>
+
+
+
+

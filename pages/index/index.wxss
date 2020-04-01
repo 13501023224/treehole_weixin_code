@@ -19,3 +19,26 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.swiperClass{
+  margin-top: 20rpx;
+  margin-left: 75rpx;
+  width: 600rpx;
+  height: 384rpx;
+
+}
+
+.tupiantiaozheng{
+  width: 600rpx;
+  height: 384rpx;
+}
+
+.juzhongduiqi{
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+
+
+
+

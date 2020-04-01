@@ -1,0 +1,9 @@
+/* pages/caseDetail/caseDetail.wxss */
+.fontClass{
+  margin-top: 20rpx;
+  text-align: center;
+}
+.imageClass{
+  text-align: center;
+  margin-top: 20rpx;
+}

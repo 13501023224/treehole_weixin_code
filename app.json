@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/caseDetail/caseDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,5 +11,36 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "text": "返回首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/icon/lifu01.png",
+        "selectedIconPath": "/images/icon/lifu02.png"
+      },
+      {
+        "text": "婚礼案例",
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/icon/niao01.png",
+        "selectedIconPath": "/images/icon/niao02.png"
+      }
+    ]
+  },
+
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "usingComponents": {}
+   
+
+
+
+
 }

@@ -1,0 +1,12 @@
+<view class="fontClass">
+
+  <!-- <text>{{}}</text> -->
+  <text>案例详情</text>
+</view>
+
+
+<view wx:for="{{caseList}}" class="imageClass">
+    <image src="{{item.imagePath}}"></image>
+
+</view>
+
