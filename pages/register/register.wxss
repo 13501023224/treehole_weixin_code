@@ -1,0 +1,40 @@
+/* pages/register/register.wxss */
+
+.view_class{
+  margin-top: 70rpx;
+  text-align: center;
+}
+
+.name_class{
+  width: 600rpx;
+  height: 30rpx;
+  margin-left: 75rpx;
+  margin-top: 30rpx;
+  background-color:gainsboro;
+  text-align: left;
+  
+}
+
+.submit_reset_class_block{
+  display: flex;
+  margin-top: 40rpx;
+  width: 400rpx;
+  text-align: center;
+}
+
+
+
+
+.submit_class{
+  background-color: green;
+  border-radius: 30rpx;
+}
+
+
+.text_class{
+  text-align: left;
+  margin-top: 20rpx;
+  color: red;
+  margin-left: 80rpx;
+}
+

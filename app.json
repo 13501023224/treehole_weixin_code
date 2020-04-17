@@ -1,5 +1,14 @@
 {
   "pages": [
+
+    "pages/load/load",
+    "pages/test_request/test_request",
+    "pages/register/register",
+    "pages/square/square",
+    "pages/mine/mine",
+    "pages/bottom_menu/bottom_menu",
+    "pages/commit/commit",
+    "pages/login/login",
     "pages/index/index",
     "pages/logs/logs",
     "pages/caseDetail/caseDetail"

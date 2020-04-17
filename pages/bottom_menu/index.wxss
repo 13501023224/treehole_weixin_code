@@ -1,0 +1,4 @@
+.img_class{
+  height: 20rpx;
+  width: 20rpx;
+}

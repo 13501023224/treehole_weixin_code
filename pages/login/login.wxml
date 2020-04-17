@@ -1,0 +1,22 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+	<view class="view_class">
+		<view class="">
+			<input type="input" placeholder="请输入用户名" class="name_class" name="user_name"></input>
+		</view>
+
+		<view class="">
+			<input type="password" placeholder="请输入您的密码" class="name_class" name="password"></input>
+		</view>
+		<view class="submit_reset_class_block" >
+			<view  class="submit_view_class">
+				<button formType="submit" class="submit_class">登录</button>
+			</view>
+      <view class="submit_view_class">
+				<button formType="reset" class="submit_class">重置</button>
+			</view>
+		</view>
+		<view class="text_class" bindtap="go_register">
+		  <text >点击注册</text>
+		</view>
+	</view>
+</form>

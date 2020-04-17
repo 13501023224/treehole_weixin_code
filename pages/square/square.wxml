@@ -1,0 +1,51 @@
+<scroll-view class="zheng_ti">
+  <block wx:for="{{content}}">
+	<!-- 第一部分 -->
+	<view class="diYiBuFen_class">
+		<view>
+			<image src="/images/wxtouxiang/touxiang1.jpg" class="touxiang_img_class"></image>
+		</view>
+		<view class="name_time_class">
+			<text class="mingZiClass">{{item.user_id}}</text>
+			<text>{{item.shiJian}}</text>
+		</view>
+	</view>
+	<!-- 第二部分 -->
+	<view class="di_er_bu_fen">
+		<view>
+			<text>{{item.content}}</text>
+		</view>
+		<view class="fen_ge_xian">
+
+		</view>
+	</view>
+	<!-- 第三部分 -->
+	<view class="third_class" wx:if="{{item.likes>0}}">
+		<view>
+			<image src="/images/icon/zan.png" class="zan_img_class" bindtap="dianZan"
+			 data-id="{{item.id}}" ></image>
+		</view>
+		<view><text id="likes" data-zan="{{item.likes}}" >{{item.likes}}</text></view>
+	</view>
+  </block>
+</scroll-view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<bottom_menu>
+</bottom_menu>

@@ -1,0 +1,17 @@
+<view class="page_class">
+	<view class="guangchang">
+		<text bindtap="guang_chang_event">广场</text>
+	</view>
+	<view class="jihaotupian">
+		<image src="/images/icon/jiahao.png" class="img_class" bindtap="send_event"></image>
+	</view>
+	<view class="gerenzhongxin"> <text bindtap="mine_event">个人中心</text></view>
+</view>
+
+
+<!-- <view class="page_class">
+	<text>广场</text>
+	<image src="/images/icon/jiahao.png" class="img_class"></image>
+
+	<text>个人中心</text>
+</view> -->

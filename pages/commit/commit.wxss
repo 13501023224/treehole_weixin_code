@@ -1,0 +1,22 @@
+/* pages/commit/commit.wxss */
+.area_class{
+  background-color: purple;
+  height: 700rpx;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 30rpx;
+ 
+}
+.send_class{
+  text-align: center;
+  width: 30%;
+  background-color:purple;
+  border-radius: 40rpx;
+  margin-left: 35%;
+  margin-top: 20rpx;
+  height: 60rpx;
+  justify-content: center;
+  display: flex;
+  align-items:center;
+  color: aliceblue;
+}

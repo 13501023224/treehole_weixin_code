@@ -1,0 +1,49 @@
+@import "/pages/square/square.wxss";
+
+page{
+  height: 100%;
+  width: 100%;
+}
+.woDeShuDongDiYiBuFen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30rpx;
+}
+
+.fenGeXianMine{
+  margin-top: 30rpx;
+  height: 5rpx;
+  width: 90%;
+  align-self: center;
+  background-color: brown;
+  margin-left: 5%;
+}
+
+.zheng_ti_mine{
+  width: 90%;
+  align-items: center;
+  margin-left: 5%;
+  overflow: hidden;
+  margin-top: 50rpx;
+}
+
+.woDeTouXiang{
+   height: 250rpx;
+   width: 250rpx;
+}
+
+.shanChuTuPian{
+  height: 30rpx;
+  width: 30rpx;
+  margin-left:400rpx;
+ 
+}
+
+.zanShuoClass{
+  width: 200rpx;
+}
+
+.shanChuGongNeng{
+  width: 80%;  
+}

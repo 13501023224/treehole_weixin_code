@@ -1,0 +1,10 @@
+<view class="page_class">
+<view >
+<textarea placeholder="请输入你要发的树洞内容" class="area_class" bindinput="area_tap">
+
+</textarea>
+</view>
+<view class="send_class" bindtap="send_event">
+发送
+</view>
+</view>

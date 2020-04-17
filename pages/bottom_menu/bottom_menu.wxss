@@ -1,0 +1,34 @@
+
+
+
+.guangchang{
+  width: 250rpx;
+ 
+}
+.gerenzhongxin{
+  width: 250rpx;
+ 
+}
+
+.jihaotupian{
+  width: 250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_class{
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.page_class{
+  
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  bottom: 0rpx;
+  position: fixed;
+  background-color:white;
+  
+}

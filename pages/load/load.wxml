@@ -1,0 +1,21 @@
+<!-- 需要使用 button 来授权登录 -->
+
+<view wx:if="{{canIUse}}" class="souquan">
+	<button class="btn_souquan" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+      授权登录
+  </button>
+  <view class="txt"> 
+  欢迎您使用我们的小程序，我们需要一些公开信息，您放心，我们一定会妥善保管您的信息。
+  </view>
+</view>
+
+<view wx:else>请升级微信版本</view>
+
+
+
+<!-- <view>
+	<button class="btn_souquan" open-type="getPhoneNumber" bindgetuserinfo="getPhoneNumber">
+      获得用户的手机号
+  </button>
+
+</view> -->

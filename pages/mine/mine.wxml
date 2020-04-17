@@ -1,0 +1,43 @@
+
+	<!-- 第一部分 -->
+	<view class="woDeShuDongDiYiBuFen">
+		<view>
+			<!-- <image src="/images/wxtouxiang/touxiang2.jpg" class="woDeTouXiang"></image> -->
+			<open-data type="userAvatarUrl"class="woDeTouXiang" ></open-data>
+		</view>
+		<view class="">
+				<open-data type="userNickName" ></open-data>
+		</view>
+	</view>
+  <!-- 分割线 -->
+  <view class="fenGeXianMine">
+
+  </view>
+
+  <scroll-view class="zheng_ti_mine">
+  <block wx:for="{{content}}">
+	<!-- 第二部分 -->
+	<view class="di_er_bu_fen">
+		<view>
+			<text>{{item.content}}</text>
+		</view>
+		<view class="fen_ge_xian">
+
+		</view>
+	</view>
+	<!-- 第三部分 -->
+	<view class="third_class" >
+		<view wx:if="{{item.likes>0}}" class="dianZanTuPianRongQi">
+			<image src="/images/icon/zan.png" class="zan_img_class"></image>
+		</view>
+		<view class="zanShuoClass"  wx:if="{{item.likes>0}}"><text>{{item.likes}}</text></view>
+    <view class="shanChuGongNeng" bindtap="shanChuContent" data-id="{{item.id}}">
+     <image src="/images/icon/shanchu.png" class="shanChuTuPian"></image>
+  </view>
+	</view>
+  
+  </block>
+</scroll-view>
+
+<bottom_menu>
+</bottom_menu>

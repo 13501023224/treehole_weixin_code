@@ -10,9 +10,9 @@
 </swiper>
 </view >
 
-<test >
 
-</test>
+<button open-type="getUserInfo"> 授权登录
+</button>
 
 <view class="juzhongduiqi">
     <text bindtap="test_request">案例欣赏</text>

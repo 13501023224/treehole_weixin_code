@@ -1,0 +1,19 @@
+/* pages/load/load.wxss */
+.souquan{
+  width: 80%;
+  height: 375rpx;
+  margin-top: 50%;
+  margin-left: 10%;
+}
+
+.btn_souquan{
+  width: 70%;
+  background-color: green;
+  color: aliceblue;
+  border-radius: 20rpx;
+}
+
+.txt{
+  color: cadetblue;
+  margin-top: 20rpx;
+}
